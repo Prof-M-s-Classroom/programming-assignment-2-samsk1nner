@@ -13,6 +13,8 @@ public:
     // Default constructor
     Story();
 
+    Story(int eventNumber, string &description, int leftEventNumber, int rightEventNumber);
+
     // Parameterized constructor
     Story(string desc, int num, int leftNum, int rightNum);
 };
