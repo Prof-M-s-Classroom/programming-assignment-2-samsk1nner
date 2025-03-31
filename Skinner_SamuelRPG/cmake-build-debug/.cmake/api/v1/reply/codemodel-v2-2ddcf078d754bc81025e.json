@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Samuel_Skinner_RPG",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Skinner_SamuelRPG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Skinner_SamuelRPG-Debug-b7ba756dd6db3eda3b42.json",
+					"name" : "Skinner_SamuelRPG",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/samskinner/CLionProjects/programming-assignment-2-samsk1nner/Skinner_SamuelRPG/cmake-build-debug",
+		"source" : "/Users/samskinner/CLionProjects/programming-assignment-2-samsk1nner/Skinner_SamuelRPG"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

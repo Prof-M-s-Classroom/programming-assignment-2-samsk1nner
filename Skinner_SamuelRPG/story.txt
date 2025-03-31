@@ -1,0 +1,29 @@
+1 | You embark on your entrepreneurial journey and there exist two paths. | 2 | 3
+2 | The "right" path is for innovators and you begin building a tech startup. | 4 | 5
+3 | The left path is for clout chasers: you start a dropshipping company. | 6 | 7
+4 | You create a GPT wrapper in 2025. | -1 | -1
+5 | You begin reading books on machine learning engineering. | 8 | 9
+6 | You use Deep Research AI tools to search for "viral" products. | 12 | 13
+7 | Massive mistake! You have just joined a Miami "guru's" course. -$4,999! | 14 | 15
+8 | You decide to seek mentorship from serial entrepreneurs. | 16 | 17
+9 | You meet a businessman who wants to join the venture. | 18 | 19
+12 | You decide on the cheap manufacturing of the Chinese. | 20 | 21
+13 | You are pro-America and work with a domestic manufacturer. | -1 | 23
+14 | You move to Miami and pay $5,000 for a 400 sqft apartment. | -1 | 24
+15 | You come a course seller and begin posting content. | 25 | -1
+16 | You name your company LayUp and build out an MVP, then launch your GTM. | 26 | 27
+17 | You buy a course instead of seeking mentorship. | -1 | -1
+18 | There is synergy with you and the businessman: you become partners! | 28 | 30
+19 | $5k / month! You are moving fast and breaking shit! | 30 | 31
+20 | Uh Oh! The Trump Administration slaps 20% tariffs on China! | -1 | -1
+21 | Uh Oh! You just got scammed by the Chinese Manufacturers! | -1 | -1
+23 | You settle on fitness equipment and connect to Shopify | -1 | 32
+24 | You seek mentorship from a course seller and begin learning how to become an online coach. | 32 | -1
+25 | You become a guru and begin posting content. | 32 | -1
+26 | Financial Freedom! You scaled your company and got acquired! | -1 | -1
+27 | You build your company to thrive in the robotics age of the 2030's! | -1 | 33
+28 | $10k / month: You begin marketing your technology, but it isn't scaling fast enough. | -1 | -1
+30 | $30k / month: You invest in a successful digital marketing campaign! | -1 | -1
+31 | $7.5k / month: Growth stalls when you don't listen to your customers. | -1 | -1
+32 | $35k / month: Clout chasing guru status is reached and you link your coaching business to your Shopify store. | -1 | -1
+33 | $1B Valuation: You pioneered a leading robotics technology with AI, great leadership and you have just IPOed in the NYSE! | -1 | -1
