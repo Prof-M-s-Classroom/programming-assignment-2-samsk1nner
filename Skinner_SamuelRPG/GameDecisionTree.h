@@ -24,7 +24,6 @@ public:
             delete pair.second;
         }
     }
-
     // TODO: Function to load story data from a text file and build the binary tree
     void loadStoryFromFile(const string& filename, char delimiter) {
         ifstream file(filename);
@@ -62,7 +61,7 @@ public:
 
             T story(eventNumber, description, leftEvent, rightEvent);
             Node<T>* newNode = new Node<T>(story);
-            nodeMap[eventNumber] = newNode;
+            nodeMap[eventNumber] = newNode; // create new node from event number
             if (root == nullptr) {
                 root = newNode;
             }
@@ -71,7 +70,7 @@ public:
         for (auto& pair : nodeMap) {
             T story = pair.second ->data;
             if (story.leftEventNumber != -1 && nodeMap.find(story.leftEventNumber) != nodeMap.end()) { // error arising; resolution: nodeMap.end if -1 arises
-                pair.second->left = nodeMap[story.leftEventNumber];
+                pair.second->left = nodeMap[story.leftEventNumber]; // arrange unordered node map
             }
             if (story.rightEventNumber != -1 && nodeMap.find(story.rightEventNumber) != nodeMap.end()) {
                 pair.second->right = nodeMap[story.rightEventNumber];
@@ -79,7 +78,6 @@ public:
         }
 
     }
-
     // TODO: Function to start the game and traverse the tree based on user input
     void playGame() {
         Node<T>* current = root;
@@ -110,7 +108,7 @@ public:
                     break;
                 }
             }
-            else {
+            else { // edge case handling
                 cout << "This pathway is invalid and deviates from the entrepreneurial journey. Try again: " << endl;
             }
         }
